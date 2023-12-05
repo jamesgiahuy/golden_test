@@ -11,7 +11,6 @@ const ProductCart = ({
       (total, item) => total + item.price * item.quantity,
       0
     );
-    // Làm tròn số đến hai chữ số thập phân
     return total.toFixed(2);
   };
 
